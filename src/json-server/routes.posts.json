@@ -1,0 +1,3 @@
+{
+    "/boards/:boardId/columns/:columnName/tasks": "/:columnName/tasks"
+  }

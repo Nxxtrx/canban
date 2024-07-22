@@ -1,0 +1,124 @@
+.calendar {
+  margin-inline: 270px 50px;
+  padding-top: 70px;
+}
+
+.calendar__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 20px;
+}
+
+.calendar__title{
+  margin-top: 0;
+  color: white;
+  font-size: 40px;
+}
+
+.calendar__header p {
+  color: white;
+  font-size: 20px;
+}
+
+.calendar__container{
+  width: 100%;
+  color: aliceblue;
+  border: 1px solid white;
+}
+
+.calendar__head{
+  border: 1px solid white;
+}
+.calendar__row {
+  border: 1px solid white;
+}
+
+.calendar__day{
+  border: 1px solid white;
+}
+
+.calendar__head{
+  font-size: 28px;
+}
+
+
+.calendar__body td{
+  border: 1px solid white;
+  text-align: center;
+  padding-block: 40px;
+  font-size: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calendar__body td:hover{
+  background-color: #635fc7;
+}
+
+.calendar__switch-month {
+  display: flex;
+  color: #fff;
+  gap: 30px;
+}
+
+.calendar__month {
+  min-width: 150px;
+  text-align: center;
+}
+
+.date_type_empty {
+  background-color: rgb(179, 177, 175);
+}
+
+.date_type_meeting {
+  background-color: blueviolet;
+}
+
+.pagination__list{
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+.pagination__item{
+  line-height: normal;
+  cursor: pointer;
+  border: 1px solid #635fc7;
+  width: 40px;
+  height: 40px;
+}
+
+.pagination__item button{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.users__search {
+  padding-bottom: 20px;
+}
+
+
+.users {
+  padding-left: 280px;
+  padding-top: 80px;
+  padding-right: 40px;
+  color: #fff;
+}
+
+.users__search-input {
+  color: black;
+  margin-left: 20px;
+  border: 2px solid #635fc7;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.users__search-input:focus {
+  outline: none;
+}
+
+.users__table{
+  margin-bottom: 40px;
+}
